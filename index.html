@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Main CSS -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- Icons & Fonts -->
+     <link
+     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+     rel="stylesheet"
+ />
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,
+ 400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet">
+
+    <title>Travel Page!</title>
+
+</head>
+<body>
+     <!--Header Section Start-->
+
+     <header>
+
+        <div id="menu-bar" class="ri-menu-line"></div>
+
+        <a href="#" class="logo"> <span>T</span>ravel</a>
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Book">Book</a>
+            <a href="#Packages">Packages</a>
+            <a href="#Services">Services</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#Review">Review</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="ri-search-line" id="search-btn"></i>
+            <i class="ri-user-3-line" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search here...">
+            <label for="search-bar" class="ri-search-line" ></label>
+        </form>
+
+     </header>
+     <!--Header Section End-->
+
+     <!--Login form Container-->
+
+     <div class="login-form-container">
+
+        <i class="ri-close-large-line" id="form-close-btn"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+            <P>Forget password? <a href="#">Click here</a></P>
+            <p>Don't have an account? <a href="#">Register now</a></p>
+            
+        </form>
+     </div>
+     
+     <!-- section home Container start -->
+     
+
+     <section class="home" id="Home">
+
+        <div class="content">
+            <h3>Adventure is worthwhile</h3>
+            <p>discouver new places with us, adventure awaits</p>
+            <a href="#" class="btn">Disciver More</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="Video's/Video-1.mp4"></span>
+            <span class="vid-btn" data-src="Video's/Video-2.mp4"></span>
+            <span class="vid-btn" data-src="Video's/Video-3.mp4"></span>
+            <span class="vid-btn" data-src="Video's/Video-4.mp4"></span>
+            <span class="vid-btn" data-src="Video's/Video-5.mp4"></span>
+            <span class="vid-btn" data-src="Video's/Video-6.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="Video's/video-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+     </section>
+
+     <!-- section home Container End -->
+
+     <!--Book section Start-->
+
+     <section class="book" id="Book">
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/img-1.png" alt="">
+            </div>
+
+           <form action="">
+
+            <div class="inputBox">
+                <h3>Where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+
+            <div class="inputBox">
+                <h3>How many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+
+            <div class="inputBox">
+                <h3>Arrival</h3>
+                <input type="date">
+            </div>
+
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+
+            <input type="submit" value="book now" class="btn">
+
+           </form>
+
+       
+
+
+
+        </div>
+
+
+
+
+     </section>
+
+     <!--Book section End-->
+
+
+     <!---Pacakge Section Start-->
+
+     <section class="package" id="Packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/img-2.jpg" alt="">
+                <div class="content">
+                    <h3><i class="ri-map-pin-line"></i>Mumbai</h3>
+                    <p>Mumbai (formerly called Bombay) is a densely populated city on Indias
+                         west coast. A financial center, it's India's largest city. On the Mumbai
+                          Harbour waterfront stands the iconic Gateway of India stone arch, built
+                           by the British Raj in 1924. Offshore</p>
+
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+
+                <div class="price">₹ 1990.00 <span>₹ 2590.00</span></div>
+                <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img-3.jpg" alt="">
+                <div class="content">
+                    <h3><i class="ri-map-pin-line"></i>Ireland</h3>
+                    <p>The Republic of Ireland occupies most of the island of Ireland, 
+                        off the coast of England and Wales. Its capital, Dublin, is the 
+                        birthplace of writers like Oscar Wilde, and home of Guinness beer.
+                         The 9th-century Book of Kells and other illustrated manuscripts are on show in Dublins 
+                         .</p>
+
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+
+                <div class="price">₹ 2760.00 <span>₹ 3690.00</span></div>
+                <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img-4.jpg" alt="">
+                <div class="content">
+                    <h3><i class="ri-map-pin-line"></i>Tokyo</h3>
+                    <p>Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, 
+                        from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto
+                         Shrine is known for its towering gate and surrounding woods. The Imperial 
+                         Palace sits amid large public gardens.</p>
+
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+
+                <div class="price">₹ 3820.00 <span>₹ 4590.00</span></div>
+                <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img-5.jpg" alt="">
+                <div class="content">
+                    <h3><i class="ri-map-pin-line"></i>America</h3>
+                    <p>The U.S. is a country of 50 states covering a vast swath of North America, 
+                        with Alaska in the northwest and Hawaii extending the nations presence into
+                         the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center,</p>
+
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+
+                <div class="price">₹ 2320.00 <span>₹ 3890.00</span></div>
+                <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img-6.jpg" alt="">
+                <div class="content">
+                    <h3><i class="ri-map-pin-line"></i>Nigeria</h3>
+                    <p>Nigeria, an African country on the Gulf of Guinea, has many natural 
+                        landmarks and wildlife reserves. Protected areas such as Cross River 
+                        National Park and Yankari National Park have waterfalls, dense rainforest, 
+                        savanna and rare primate habitats.</p>
+
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+
+                <div class="price">₹ 3599.00 <span>₹ 4899.00</span></div>
+                <a href="#" class="btn">book now</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <img src="images/img-7.jpg" alt="">
+                <div class="content">
+                    <h3><i class="ri-map-pin-line"></i>Switzerland</h3>
+                    <p>Switzerland is a mountainous Central European country, home to numerous lakes, 
+                        villages and the high peaks of the Alps. Its cities contain medieval quarters, 
+                        with landmarks like capital Bern’s Zytglogge clock tower and Lucerne’s wooden chapel bridge.</p>
+
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+
+                <div class="price">₹ 6999.00 <span>₹ 8999.00</span></div>
+                <a href="#" class="btn">book now</a>
+                </div>
+                
+            </div>
+
+
+        </div>
+
+
+
+     </section>
+     <!--Pacage Section End-->
+    
+
+     <!--Services Section Start-->
+
+     <section class="services" id="Services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="ri-community-line"></i>
+                <h3>affordable hotels</h3>
+                <p>A budget hotel (or economy hotel) is a small to midsize property that
+                     offers basic facilities and services for a low price. In terms of hotel 
+                     star ratings, 1- and 2-star hotels are considered budget accommodations.</p>
+            </div>
+
+            <div class="box">
+                <i class="ri-drinks-line"></i>
+                <h3>Food and drinks</h3>
+                <p>Food and beverages that we consume directly affect our health and energy level.
+                     The ingredients of a meal determine whether we get the necessary amount of vitamins
+                      and microelements.</p>
+            </div>
+
+            <div class="box">
+                <i class="ri-shield-line"></i>
+                <h3>safty quide </h3>
+                <p>“The key to safety is in your hands.” “Make safety a reality and don't be a fatality.” 
+                    "Every accident is a notice that something is wrong with men, methods, or material —
+                     investigate — then act.” "Shortcuts cut life short.”</p>
+            </div>
+
+            <div class="box">
+                <i class="ri-global-line"></i>
+                <h3>around the world </h3>
+                <p>Earth is special because it is an ocean planet. Water covers 70% of Earth's surface. Earth's 
+                    atmosphere is made mostly of nitrogen and has plenty of oxygen for us to breathe.</p>
+            </div>
+
+            <div class="box">
+                <i class="ri-flight-takeoff-line"></i>
+                <h3>fastest travel </h3>
+                <p>Earth is special because it is an ocean planet. Water covers 70% of Earth's surface. Earth's 
+                    atmosphere is made mostly of nitrogen and has plenty of oxygen for us to breathe.</p>
+            </div>
+
+            <div class="box">
+                <i class="ri-run-line"></i>
+                <h3>adventures </h3>
+                <p>Adventuring not only expands your mind by building up your bravery, but is also an opportunity to grow and learn. 
+                    New environments and cultures are packed full of meaningful life lessons that you might not be exposed to in 
+                    your everyday life.</p>
+            </div>
+
+
+        </div>
+
+
+
+
+
+     </section>
+     <!--Services Section End-->
+
+     <!---Gallery Section Start-->
+     <section class="gallery" id="Gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+
+            <div class="box">
+                <img src="images/img-8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Valley of Flowers, Uttarakhand - Most beautiful place in India for
+                         spectacular Himalayan valleys. Hidden from the chaotic streets and 
+                         probing eyes of civilization and situated high over the Himalayas and
+                          the Garhwal Hills of Uttaranchal is a valley filled with colorful pastures
+                           and vibrant flowers.</p>
+                           <a href="#" class="btn">see more</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <img src="images/img-9.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>The world is full of places that are brimming with awe-inspiring natural beauty,
+                         from lakes to abundant green valleys, cascading waterfalls, wide oceans, roaring 
+                         rivers, delightful beaches, starry skies, and vast deserts stretching endless.</p>
+                           <a href="#" class="btn">see more</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <img src="images/img-9.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Show some images of places of worship (e.g. church, mosque, temple) and explain that many 
+                        religions have a place of worship or a special building. Explain that humanists are non-religious. 
+                        They do not have places of worship. However, many buildings and places are special to humanists.</p>
+                           <a href="#" class="btn">see more</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <img src="images/img-10.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>A tourist attraction is a place of interest that tourists visit, typically for
+                         its inherent or an exhibited natural or cultural value, historical significance,
+                          natural or built beauty, offering leisure and amusement.</p>
+                           <a href="#" class="btn">see more</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <img src="images/img-11.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Happy places pull at your heartstrings. They give you a sense of calmness and serenity,
+                         providing you with comfort from the demanding and repetitive realities of everyday living.</p>
+                           <a href="#" class="btn">see more</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <img src="images/img-12.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>When you see a waterfall, an undisturbed meadow, or the glassy surface of a lake, 
+                        it might be difficult to put the beauty into words.</p>
+                           <a href="#" class="btn">see more</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <img src="images/img-13.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Other forms: sceneries. Scenery is a word for how a place looks, especially a beautiful, 
+                        outdoorsy place. Also, scenery is fake background in a play. If you go to a place with 
+                        mountains, and beautiful trees, and gorgeous skies, then it's got great scenery.</p>
+                           <a href="#" class="btn">see more</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <img src="images/img-14.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>extremely exciting, beautiful, or surprising: The view from the top of the mountain 
+                        is breathtaking. His performance is described in the paper as "a breathtaking display 
+                        of physical agility". a beautiful person, painting, sight, etc.</p>
+                           <a href="#" class="btn">see more</a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+     </section>
+     <!---Gallery Section End-->
+
+     <!--Review Section Start-->
+     <section class="review" id="Review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper-container  review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+
+                    <div class="box">
+                        <img src="https://www.shutterstock.com/image-photo/handsome-young-man-isolated-on-260nw-1190324170.jpg" alt="">
+                        <h3>john loe</h3>
+                        <p>Go karting..zip line and rope walks
+                            They are all okay. My son and daughter ten year olds liked all three if them.
+                            Though they have bungy jump for kids and adults my kids are too young for adults and too tall for kids one</p>
+                        <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-line"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide">
+
+                    <div class="box">
+                        <img src="https://www.shutterstock.com/image-photo/closeup-shot-friendly-goodlooking-african-260nw-1202886502.jpg" alt="">
+                        <h3>Luyina</h3>
+                        <p>Adventure
+                            Good place for adventure activities in Bangalore sarjapur road.
+                            Adventure lovers must visit red riders sports and adventure.</p>
+                        <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-line"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide">
+
+                    <div class="box">
+                        <img src="https://www.shutterstock.com/shutterstock/photos/2132665795/display_1500/stock-photo-happy-confident-young-black-business-woman-professional-head-shot-portrait-female-african-business-2132665795.jpg" alt="">
+                        <h3>Kirat</h3>
+                        <p>Great go-karting laps
+                            This place is little further from known Play arena on Sarjapur road but it's 
+                            worth going this far if you're going especially for Go-Karting. Their go-kart loops 
+                            are better. Overall there are few more options for activities.</p>
+                        <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-line"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide">
+
+                    <div class="box">
+                        <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsX29mZmljZV8yN19yZWFsaXN0aWNfcGhvdG9fb2Zfc21pbGluZ19oYW5kc29tZV95b3VuZ19pbl8xNWExMTE1ZC0xZTBiLTQ4YjAtOGEyNi01ZDE1ZmE3Njg2MzYucG5n.png" alt="">
+                        <h3>Rohit K</h3>
+                        <p>A disaster waiting to happen, given their safety standards
+                             Worst archery I've seen in Bangalore.
+                            (when they've mentioned 4.5 floors). One of the worst wall climbing walls at Bangalore,</p>
+                        <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-line"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide">
+
+                    <div class="box">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsvIPkHxkzRe_caMt8TtNwMuoE7jBlwP-Qtg&s" alt="">
+                        <h3>Deepa P</h3>
+                        <p>Nice place for Adventure Sports
+                            Had a birthday party for a teen, and the kids aged between 9 to 15 and 
+                            some parents were maha thrilled with the options here. The staff is helpful 
+                            at the same time patient with kids. </p>
+                        <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-line"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide">
+
+                    <div class="box">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/002/224/365/small_2x/close-up-headshot-of-young-woman-on-black-backdrop-free-photo.jpg" alt="">
+                        <h3>Aditi</h3>
+                        <p>Awesome experience
+                            It is an amazing place for a group of friends those who love adventure games. 
+                            Worth place to visit, have fun and enjoy. Had an awesome experience with my friends.
+                             Enjoyed all the games and staff is also supportive and cheerful.</p>
+                        <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-line"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide">
+
+                    <div class="box">
+                        <img src="https://png.pngtree.com/png-vector/20220615/ourmid/pngtree-retro-style-illustration-of-an-indian-girl-or-woman-in-namaste-png-image_5088852.png" alt="">
+                        <h3>The World Net</h3>
+                        <p>Fun place for a half day hangout with friends
+                            Red riders is a little offbeat when it comes to things to do on a weekend but nevertheless 
+                            makes a good spot for atleast half  </p>
+                        <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide">
+
+                    <div class="box">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQIM57KDHyxTdRFhpTOqqe4SVeoMYoL2miww&s" alt="">
+                        <h3>pinky go goi</h3>
+                        <p>Sports day for all
+                            This is a good place for sports like go karting, paintball,
+                             bunjee jumping, zip line, archery, shooting, water zorpa etc.</p>
+                        <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-star-line"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide">
+
+                    <div class="box">
+                        <img src="https://png.pngtree.com/png-vector/20240106/ourmid/pngtree-cute-3d-indian-girl-with-jewelries-png-image_11417632.png" alt="">
+                        <h3>Anumapma Pilayi</h3>
+                        <p>
+                            anup_pillai
+                             karts though didn't impress me at all. All of them were pretty slow. I wish 
+                             they got some fast karts and then it would have been really interesting. 
+                             If you want to go with your friends/family</p>
+                        <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-line"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide">
+
+                    <div class="box">
+                        <img src="https://media.istockphoto.com/id/1370558408/photo/portrait-of-attractive-young-school-boy-white-background-stock-photo.jpg?s=612x612&w=0&k=20&c=RWoLiAFFMYZ2orAEz-9niODpQ8_YIwBFBmgFdChlXtQ=" alt="">
+                        <h3>Rahul</h3>
+                        <p>Awesome Evening
+                            Had an amazing evening at this venue, took package for gokarting, dirt 
+                            Bike, paint ball. Venue is a little isolated I feel, but rest everything was awesome.</p>
+                        <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-line"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-slide">
+
+                    <div class="box">
+                        <img src="https://coreldrawdesign.com/resources/previews/preview-young-indian-boy-namaste-4k-png-stock-image-1602658319.jpg" alt="">
+                        <h3>Ajay's</h3>
+                        <p>Good for go karting!!!
+                            It's a great deal for go karting paint ball shooting is also enjoyable but needs some 
+                            improvements over the dresses and game.</p>
+                        <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-line"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+     </section>
+     <!--Review Section End-->
+
+     <!--Contact-form Section Start-->
+     <section class="contact" id="Contact">
+
+        <h1 class="heading">
+            <span>C</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="https://i.pinimg.com/736x/1f/e4/e6/1fe4e6702e9f3a67341e6eb50b34f95f.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="name" placeholder="Name">
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+
+                <textarea placeholder="message" cols="30" rows="10" id=""></textarea>
+                <input type="submit" class="btn" value="send message">
+
+            </form>
+
+        </div>
+
+
+     </section>
+     <!--Contact-form Section End-->
+
+     <!--Brand Container Start-->
+     
+     <section class="brand-container">
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>r</span>
+            <span>a</span>
+            <span>n</span>
+            <span>d</span>
+            <span>s</span>
+        </h1>
+
+        
+            <div class="brand-slider">
+                <div class="swiper-slide"><img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/5e55252f7116b20001234224/0x0.png" alt=""></div>
+                <div class="swiper-slide"><img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2019/05/attachment_88580287-e1557893662647.png?auto=format&q=60&fit=max&w=930" alt=""></div>
+                <div class="swiper-slide"><img src="https://marketplace.canva.com/EAEaWgugqtE/2/0/1600w/canva-travel-app-or-website-logo-0ow-Kjlwzd8.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/travel-logo%2Ctravel-agency-logo%2Ctravel-%26-tour-design-template-e1f616013f08427f3fe8139b972ad93d_screen.jpg?ts=1711988613" alt=""></div>
+                <div class="swiper-slide"><img src="https://i.pinimg.com/736x/ea/fa/6f/eafa6f3624e81ab08807c415a51e575e.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="https://www.logopeople.in/wp-content/themes/logopeople/img/mp-travel-logo-design.jpg" alt=""></div>
+            </div>
+       
+     </section>
+
+      <!--Brand Container End-->
+
+
+      <!--Footer Section Start-->
+
+      <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>Travel is the movement of people between distant geographical locations. 
+                    Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane,
+                     ship or other means, with or without luggage, and can be one way or round trip.</p>
+            </div>
+
+            <div class="box">
+                <h3>branch location</h3>
+                <a href="">India</a>
+                <a href="">Japan</a>
+                <a href="">USA</a>
+                <a href="">france</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#Home">home</a>
+                <a href="#Book">book</a>
+                <a href="#Packages">packages</a>
+                <a href="#Services">services</a>
+                <a href="#Gallery">gallery</a>
+                <a href="#Review">review</a>
+                <a href="#Contact">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="">instagram</a>
+                <a href="">youtube</a>
+                <a href="">facebook</a>
+                <a href="">twitter</a>
+                <a href="">linkedin</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="">instagram</a>
+                <a href="">youtube</a>
+                <a href="">facebook</a>
+                <a href="">twitter</a>
+                <a href="">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="create"> created by <span>Mr. Rizwan</span> | all rights reserved @2024! </h1>
+
+            
+      </section>
+
+      <!--Footer Section End-->
+
+
+
+
+        <!--JavaScript-Link-->
+        <script src="app.js"></script>
+
+        <!--Jquery-Link-->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+        
+        
+
+
+</body>
+</html>
